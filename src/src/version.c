@@ -32,7 +32,8 @@
 /* When compiling via MSVC (by using {msc,winhugs}/Makefile),
  * echodate.h contains the generated define for YYYYMMDD
  */
-#include "echodate.h"
+/* #include "echodate.h" */
+#define MONTH_YEAR "Sep 2006"
 #endif
 
 #ifndef MONTH_YEAR
